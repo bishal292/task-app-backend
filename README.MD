@@ -48,7 +48,7 @@ This project is a Python-based web application backend built using FastAPI. It d
 
 6. **Access the API:**
    - Open your browser and go to: [http://127.0.0.1:8000](http://127.0.0.1:8000)
-   - API documentation is available at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  ||  [http://127.0.0.1:8000/redocs](http://127.0.0.1:8000/redocs)
+   - API documentation is available at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  ||  [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
 ## Notes
 
