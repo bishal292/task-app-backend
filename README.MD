@@ -1,6 +1,6 @@
 # Python FastAPI Project
 
-This project is a Python-based web application built using FastAPI. It demonstrates a modern API backend with dependencies such as MongoDB, Pydantic, and Uvicorn.
+This project is a Python-based web application backend built using FastAPI. It demonstrates a modern API backend with dependencies such as MongoDB, Pydantic, and Uvicorn.
 
 ## Features
 
@@ -17,10 +17,13 @@ This project is a Python-based web application built using FastAPI. It demonstra
 ## Setup Instructions
 
 1. **Clone the repository or copy the project files** to your local system.
+   ```sh
+   git clone https://github.com/bishal292/task-app-backend.git
+   ```
 
 2. **Navigate to the project directory:**
    ```sh
-   cd "D:\EDUCATION RELATED\Programming practice\Python-Project\First"
+   cd task-app-backend
    ```
 
 3. **(Optional) Create and activate a virtual environment:**
@@ -39,13 +42,13 @@ This project is a Python-based web application built using FastAPI. It demonstra
 
 5. **Run the FastAPI application:**
    ```sh
-   uvicorn main:app --reload
+   uvicorn app.main:app --reload
    ```
-   Replace `main:app` with the actual filename and FastAPI app instance if different.
+   Replace `main:app` with the actual filename and FastAPI app instance if different(Changed), As for this project FastAPI instance is located inside "app/main.py" and instance is named as 'app'.
 
 6. **Access the API:**
    - Open your browser and go to: [http://127.0.0.1:8000](http://127.0.0.1:8000)
-   - API documentation is available at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+   - API documentation is available at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  ||  [http://127.0.0.1:8000/redocs](http://127.0.0.1:8000/redocs)
 
 ## Notes
 
